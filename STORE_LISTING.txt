@@ -1,0 +1,14 @@
+App Title: MyBookCatalog
+Short Description: Explore a curated collection of literary masterpieces and modern hits.
+Full Description:
+MyBookCatalog is your digital companion for exploring a wide range of books across various genres. From historical thrillers and science fiction to self-help and wellness, our catalog provides detailed insights into every title.
+
+Key Features:
+- Comprehensive list of trending books.
+- Detailed information: View author, genre, and plot summaries.
+- Clean and intuitive UI for easy navigation.
+- Integrated mobile money simulation for book purchases.
+
+Category: Books & Reference
+Content Rating: Everyone
+Contact: dev@example.com

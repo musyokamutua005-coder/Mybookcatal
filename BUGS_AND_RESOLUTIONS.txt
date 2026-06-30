@@ -1,0 +1,16 @@
+BUG REPORT & RESOLUTION LOG - MyBookCatalog
+
+1. Bug: ListView only displayed titles without authors.
+   Resolution: Developed a custom 'BookAdapter' and 'item_book.xml' layout to provide a richer UI/UX, displaying both the book title and its author in the main list.
+
+2. Bug: App content was hidden behind system bars (status bar/navigation bar) on newer Android versions.
+   Resolution: Integrated 'EdgeToEdge' support and added 'ViewCompat.setOnApplyWindowInsetsListener' to ensure proper padding and device compatibility.
+
+3. Bug: Details activity crashed when no data was passed.
+   Resolution: Added null checks for the 'Book' object retrieved from the Intent and logged errors using Android Logcat for easier debugging.
+
+4. Bug: Application name was inconsistently capitalized.
+   Resolution: Updated 'strings.xml' to set the official app name as 'MyBookCatalog'.
+
+5. Bug: Lack of user feedback during simulated payment.
+   Resolution: Integrated an 'AlertDialog' and 'Toast' notifications to simulate a real Mobile Money API interaction flow.
